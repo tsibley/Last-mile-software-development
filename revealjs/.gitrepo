@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/hakimel/reveal.js
+	branch = master
+	commit = 360bc940062711db9b8020ce4e848f6c37014481
+	parent = db5604fa08c1890d2468aebc233c357a8fcaa1b9
+	cmdver = 0.3.0
