@@ -18,9 +18,95 @@
     <![endif]-->
     <style>
       /* Custom styles for this talk */
+      @font-face {
+        font-family: EmojiOne;
+        src: url(images/emojione-svg.otf) format("opentype");
+      }
+
+      .emoji {
+        font-family: EmojiOne, "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif !important;
+      }
+
+      .poop {
+        color: darkgoldenrod !important;
+      }
+
       section .fleuron {
         opacity: 0.2;
         margin: 1.5em 0;
+      }
+
+      section .fleuron.snug {
+        margin: 0.5em 0;
+      }
+
+      .reveal .slides figure {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .reveal .slides figcaption {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        font-size: 14px;
+      }
+
+      .reveal .slides section img {
+        max-height: 650px;
+        max-width: none;
+        margin-top: -25px;
+      }
+
+      .reveal .slides section img.wide {
+        max-height: none;
+        max-width: 900px;
+      }
+
+      .reveal .slides section img.padded {
+        padding: 10px;
+        background: white;
+      }
+
+      .reveal .slides section img.frameless {
+        border: none;
+        box-shadow: none;
+      }
+
+      .reveal .slides section.headers-left {
+        text-align: left;
+        padding-left: 10%;
+      }
+
+      .reveal .slides section.header-madlib {
+        text-align: left;
+        padding-left: 10%;
+      }
+
+      .reveal .slides section.header-madlib h3 {
+        margin: 0;
+      }
+
+      .reveal .slides section.header-madlib h3:not(:first-of-type) del {
+        visibility: hidden;
+      }
+
+      .reveal .slides blockquote {
+        text-align: left;
+        box-shadow: none;
+      }
+      
+      .reveal .slides blockquote p:first-of-type {
+        display: block;
+      }
+
+      .reveal .slides blockquote p:last-of-type {
+        display: block;
+        text-align: right;
+      }
+
+      .reveal .slides code {
+        max-height: 650px;
       }
     </style>
   </head>
