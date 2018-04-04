@@ -2,10 +2,11 @@
 
 This is the talk I gave at The Perl Conference 2017.
 
-The slides are available from this repository in two ways:
+The talk is available from this repository in three ways:
 
-1. In their source material, a plain-text Markdown file: [slides.md](slides.md)
-2. In their as-presented dynamic HTML page: run `make` and then open [http://localhost:12345/index.html?showNotes=1](http://localhost:12345/index.html?showNotes=1)
+1. [A very well-done video recording](https://www.youtube.com/watch?v=Kdc9sj8P9Ys) (thanks TPC!)
+2. My source material, a plain-text Markdown file: [slides.md](slides.md)
+3. My slides as-presented using a dynamic HTML page: run `make` and then open [http://localhost:12345/index.html?showNotes=1](http://localhost:12345/index.html?showNotes=1)
 
 The bulk of the talk is in my presenter notes (which are also in slides.md), so
 you'll want to be sure to read those.  You can enable those in the interactive
